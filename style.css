@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+  header{
+    font-family: cursive;
+    background-color: grey;
+    padding: 15px 0 15px 0 6rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  nav a:hover {
+    color: #23527c;
+  }
+  
+  
+  #Aditya {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  #Kushan {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    
+    section {
+      display: block;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
